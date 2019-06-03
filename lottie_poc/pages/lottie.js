@@ -42,7 +42,7 @@ export default class LottieControl extends React.Component {
         </button>
         <button
           style={buttonStyle}
-          onClick={() => this.setState({ isStopped: false })}
+          onClick={() => this.setState({ isStopped: false, isPaused: false })}
         >
           play
         </button>
